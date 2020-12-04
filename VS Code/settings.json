@@ -1,0 +1,19 @@
+{
+	"42header.email": "vde-melo@student.42sp.org.br",
+	"42header.username": "vde-melo",
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.eol": "\n",
+	"editor.tabSize": 4,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.minimap.enabled": false,
+	"editor.rulers": [
+		72,
+		{
+			"column": 80,
+			"color": "#ff0000"
+		},
+	],
+}
