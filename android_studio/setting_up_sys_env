@@ -1,0 +1,20 @@
+    Essas sys env sao variaveis de sistema do windows, configuradas assim o AS n da pau, pode resolver alguns crashes do AVD, do SDK, do NDK. 
+Pra abrir essas configs vc pesquisa por env na caixa de pesquisa do lado do logo do windows. Vc altera as q estiverem diferentes e adiciona
+as que nao existirem.
+
+ANDROID_AVD_HOME: C:\Android\avd
+
+ANDROID_EMULATOR_HOME: %ANDROID_SDK_HOME%/.android/
+
+ANDROID_HOME: %ANDROID_SDK_ROOT%
+
+ANDROID_NDK: C:\Android\ndk-r21e
+
+ANDROID_SDK_HOME: C:\Android\Sdk
+
+ANDROID_SDK_ROOT: C:\Android\Sdk
+
+Ai vc tem q clicar duas vezes na evn PATH, vai abrir uma outra caixa de dialogo, ai vc adiciona ou altera essas duas:
+
+C:\Android\SDK\platform-tools
+C:\Android\SDK\tools
