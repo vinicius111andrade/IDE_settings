@@ -1,3 +1,5 @@
+Primeiro setar as sys env var    
+    
     Essas sys env sao variaveis de sistema do windows, configuradas assim o AS n da pau, pode resolver alguns crashes do AVD, do SDK, do NDK. 
 Pra abrir essas configs vc pesquisa por env na caixa de pesquisa do lado do logo do windows. Vc altera as q estiverem diferentes e adiciona
 as que nao existirem.
@@ -17,6 +19,12 @@ ANDROID_SDK_ROOT: C:\Android\Sdk
 JAVA_HOME: C:\Program Files\Java\jdk1.8.0_291
 
 Ai vc tem q clicar duas vezes na evn PATH, vai abrir uma outra caixa de dialogo, ai vc adiciona ou altera essas duas:
-
+    
 C:\Android\SDK\platform-tools
 C:\Android\SDK\tools
+    
+    
+Depois instalar o Android Studio
+    
+Por ultimo instalar o Java SDK, 8 de preferencia, eh o q ta sendo usado na JAVA_HOME la em cima
+    
